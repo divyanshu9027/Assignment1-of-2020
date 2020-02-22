@@ -69,6 +69,10 @@ public class Main {
                     contactList.delete(index);
                     System.out.println(tempName + " has been deleted from your contacts");
                     break;
+                case 5:
+                    System.out.println("Thank You For Using Our Services");
+                    flag = false;
+                    break;
 
 
         }
