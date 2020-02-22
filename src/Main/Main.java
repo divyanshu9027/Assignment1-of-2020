@@ -53,6 +53,11 @@ public class Main {
                 case 2:
                     contactList.viewAllContacts();
                     break;
+                case 3:
+                    System.out.println("You could search for a contact from there contact name");
+                    String name = scanner.next();
+                    contactList.search(name);
+                    break;
 
 
         }
