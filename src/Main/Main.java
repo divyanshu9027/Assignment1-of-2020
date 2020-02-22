@@ -73,6 +73,9 @@ public class Main {
                     System.out.println("Thank You For Using Our Services");
                     flag = false;
                     break;
+                default:
+                    System.out.println("Invailid Input enter the right input:");
+                    break;
 
 
         }
