@@ -50,6 +50,9 @@ public class Main {
                     Person person = new Person(firstName, lastName, contactNumber, email);
                     contactList.add(person);
                     break;
+                case 2:
+                    contactList.viewAllContacts();
+                    break;
 
 
         }
