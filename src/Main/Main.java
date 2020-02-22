@@ -1,4 +1,5 @@
 package Main;
+import definition.ContactList;
 import java.util.Scanner;
 
 public class Main {
