@@ -58,6 +58,17 @@ public class Main {
                     String name = scanner.next();
                     contactList.search(name);
                     break;
+                case 4:
+                    System.out.println("Here are your contacts");
+                    for (int i = 0; i < contactList.getArrayOfNames().size(); i++) {
+                        System.out.println((i + 1) + ". " + contactList.getArrayOfNames().get(i));
+                    }
+                    System.out.println("Press the number against the contact to delete it: ");
+                    int index = scanner.nextInt();
+                    String tempName = contactList.getArrayOfNames().get(index - 1).toString();
+                    contactList.delete(index);
+                    System.out.println(tempName + " has been deleted from your contacts");
+                    break;
 
 
         }
